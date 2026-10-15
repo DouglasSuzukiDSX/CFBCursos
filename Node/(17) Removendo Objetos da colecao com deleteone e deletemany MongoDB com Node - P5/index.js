@@ -1,6 +1,6 @@
 // (17) Removendo Objetos da colecao com deleteone e deletemany MongoDB com Node - P5
 const mongodb = require('mongodb').MongoClient
-const url = "mongodb+srv://Nick:123@cluster0.bpoaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+proccess.env.URL_MONGO
    // Obtido em 'connect' após criar o DB no site
 
 mongodb.connect(url, (erro, banco) => {  

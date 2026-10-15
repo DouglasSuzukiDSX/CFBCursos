@@ -1,0 +1,1 @@
+URL_MONGO = "mongodb+srv://USER:PASS@cluster0.bpoaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
