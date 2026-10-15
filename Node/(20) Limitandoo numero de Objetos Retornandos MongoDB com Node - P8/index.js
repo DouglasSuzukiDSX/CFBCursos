@@ -1,6 +1,6 @@
 // (20) Limitandoo numero de Objetos Retornandos MongoDB com Node - P8
 const mongodb = require('mongodb').MongoClient
-proccess.env.URL_MONGO
+const url = proccess.env.URL_MONGO
    // Obtido em 'connect' após criar o DB no site
 
 mongodb.connect(url, (erro, banco) => {  

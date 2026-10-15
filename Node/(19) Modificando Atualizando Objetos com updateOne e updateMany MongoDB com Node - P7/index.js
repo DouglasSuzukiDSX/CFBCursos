@@ -1,6 +1,6 @@
 // (19) Modificando Atualizando Objetos com updateOne e updateMany MongoDB com Node - P7
 const mongodb = require('mongodb').MongoClient
-proccess.env.URL_MONGO
+const url = proccess.env.URL_MONGO
    // Obtido em 'connect' após criar o DB no site
 
 mongodb.connect(url, (erro, banco) => {  

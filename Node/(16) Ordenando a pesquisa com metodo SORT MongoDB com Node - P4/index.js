@@ -1,7 +1,7 @@
 // (16) Ordenando a pesquisa com metodo SORT MongoDB com Node - P4
 const mongodb = require('mongodb').MongoClient
-proccess.env.URL_MONGO
-   // Obtido em 'connect' após criar o DB no site
+const url = proccess.env.URL_MONGO   
+// Obtido em 'connect' após criar o DB no site
 
 mongodb.connect(url, (erro, banco) => {  
    if(erro) throw erro

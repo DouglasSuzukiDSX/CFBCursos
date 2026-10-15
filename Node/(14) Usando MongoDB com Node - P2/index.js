@@ -1,6 +1,6 @@
 // (14) Usando MongoDB com Node - P2 - Procurando dados no DB
 const mongodb = require('mongodb').MongoClient
-proccess.env.URL_MONGO
+const url = proccess.env.URL_MONGO
    // Obtido em 'connect' após criar o DB no site
 
 mongodb.connect(url, (erro, banco) => {  
